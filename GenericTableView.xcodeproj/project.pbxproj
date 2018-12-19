@@ -13,7 +13,9 @@
 		84056AEE21C7E6940048B7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84056AED21C7E6940048B7FB /* Assets.xcassets */; };
 		84056AF121C7E6940048B7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84056AEF21C7E6940048B7FB /* LaunchScreen.storyboard */; };
 		8451E3BD21C9E4CA00362886 /* Table1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451E3BC21C9E4CA00362886 /* Table1.swift */; };
-		8451E3BF21C9E4D400362886 /* Table2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451E3BE21C9E4D400362886 /* Table2.swift */; };
+		8451E3BF21C9E4D400362886 /* BaseTableAndCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451E3BE21C9E4D400362886 /* BaseTableAndCell.swift */; };
+		84F91B3421CA2B3F000AECBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F91B3321CA2B3F000AECBC /* Model.swift */; };
+		84F91B3621CA320D000AECBC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F91B3521CA320D000AECBC /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		84056AF021C7E6940048B7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84056AF221C7E6940048B7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8451E3BC21C9E4CA00362886 /* Table1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Table1.swift; path = ../../../../../admin/Documents/MonthlyReport/GenericTableView/GenericTableView/Table1.swift; sourceTree = "<group>"; };
-		8451E3BE21C9E4D400362886 /* Table2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Table2.swift; path = ../../../../../admin/Documents/MonthlyReport/GenericTableView/GenericTableView/Table2.swift; sourceTree = "<group>"; };
+		8451E3BE21C9E4D400362886 /* BaseTableAndCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseTableAndCell.swift; path = ../../../../../admin/Documents/MonthlyReport/GenericTableView/GenericTableView/BaseTableAndCell.swift; sourceTree = "<group>"; };
+		84F91B3321CA2B3F000AECBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../../../../../admin/Documents/MonthlyReport/GenericTableView/GenericTableView/Model.swift; sourceTree = "<group>"; };
+		84F91B3521CA320D000AECBC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../../../../../admin/Documents/MonthlyReport/GenericTableView/GenericTableView/CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				84056AE621C7E6920048B7FB /* AppDelegate.swift */,
 				84056AE821C7E6920048B7FB /* ViewController.swift */,
+				84F91B3321CA2B3F000AECBC /* Model.swift */,
 				8451E3BC21C9E4CA00362886 /* Table1.swift */,
-				8451E3BE21C9E4D400362886 /* Table2.swift */,
+				8451E3BE21C9E4D400362886 /* BaseTableAndCell.swift */,
+				84F91B3521CA320D000AECBC /* CustomCell.swift */,
 				84056AEA21C7E6920048B7FB /* Main.storyboard */,
 				84056AED21C7E6940048B7FB /* Assets.xcassets */,
 				84056AEF21C7E6940048B7FB /* LaunchScreen.storyboard */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F91B3421CA2B3F000AECBC /* Model.swift in Sources */,
 				84056AE921C7E6920048B7FB /* ViewController.swift in Sources */,
-				8451E3BF21C9E4D400362886 /* Table2.swift in Sources */,
+				8451E3BF21C9E4D400362886 /* BaseTableAndCell.swift in Sources */,
 				8451E3BD21C9E4CA00362886 /* Table1.swift in Sources */,
+				84F91B3621CA320D000AECBC /* CustomCell.swift in Sources */,
 				84056AE721C7E6920048B7FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
